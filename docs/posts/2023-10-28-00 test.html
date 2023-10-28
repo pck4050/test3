@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Test">
+<meta name="dcterms.date" content="2023-10-28">
 
-<title>Test3 – test</title>
+<title>Test3 - Test</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -133,7 +135,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/2023-10-28-00 test.html">Posts</a></li><li class="breadcrumb-item"><a href="../posts/2023-10-28-00 test.html">2023-10-28-00 test</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../posts/2023-10-28-00 test.html">Posts</a></li><li class="breadcrumb-item"><a href="../posts/2023-10-28-00 test.html">Test</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -171,7 +173,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../posts/2023-10-28-00 test.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">2023-10-28-00 test</span></a>
+ <span class="menu-text">Test</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
@@ -186,7 +188,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../posts/test3/2023-10-28-00 test.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2023-10-28-00 test</span></a>
+ <span class="menu-text">Test</span></a>
   </div>
 </li>
       </ul>
@@ -204,31 +206,53 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Test</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">test</div>
+  </div>
+  </div>
 
 
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Test </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 28, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="op">---</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a>title : <span class="st">"Test"</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a>author : <span class="st">"Test"</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a>date : <span class="st">"10/28/23"</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a>categories : [test]</span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="op">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> ex</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="im">import</span> plotly.io <span class="im">as</span> pio</span>
+<span id="cb1-4"><a href="#cb1-4"></a>pio.renderers.default <span class="op">=</span> <span class="st">"plotly_mimetype+notebook_connected"</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">import</span> plotly.express <span class="im">as</span> ex</span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="im">import</span> plotly.io <span class="im">as</span> pio</span>
-<span id="cb2-4"><a href="#cb2-4"></a>pio.renderers.default <span class="op">=</span> <span class="st">"plotly_mimetype+notebook_connected"</span></span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/kalilurrahman/datasets/main/mobilephonemktshare2020.csv'</span>)</span>
+<span id="cb2-2"><a href="#cb2-2"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/kalilurrahman/datasets/main/mobilephonemktshare2020.csv'</span>)</span>
-<span id="cb3-2"><a href="#cb3-2"></a>df.head()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a>df.set_index(<span class="st">"Date"</span>).diff().<span class="op">\</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a>  dropna().boxplot(backend <span class="op">=</span> <span class="st">"plotly"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a>df.set_index(<span class="st">"Date"</span>).diff().<span class="op">\</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a>  dropna().boxplot(backend <span class="op">=</span> <span class="st">"plotly"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
@@ -475,7 +499,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="../posts/test3/2023-10-28-00 test.html" class="pagination-link">
-        <span class="nav-page-text">2023-10-28-00 test</span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text">Test</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
