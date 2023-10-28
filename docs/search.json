@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "posts/test3/2023-10-28-00 test.html",
+    "href": "posts/test3/2023-10-28-00 test.html",
+    "title": "Test3",
+    "section": "",
+    "text": "---\ntitle : \"Test\"\nauthor : \"Test\"\ndate : \"10/28/23\"\ncategories : [test]\n---\n\n\nimport plotly.express as ex\nimport plotly.express as px\nimport plotly.io as pio\npio.renderers.default = \"plotly_mimetype+notebook_connected\"\nimport numpy as np\nimport pandas as pd\n\n\ndf = pd.read_csv('https://raw.githubusercontent.com/kalilurrahman/datasets/main/mobilephonemktshare2020.csv')\ndf.head()\n\n\ndf.set_index(\"Date\").diff().\\\n  dropna().boxplot(backend = \"plotly\")"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Test3",
+    "section": "",
+    "text": "title: “Test3” listing: contents: posts sort: [date desc, title] type: table categories: true sort-ui: true filter-ui: true page-layout: full title-block-banner: true"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "posts/2023-10-28-00 test.html",
+    "href": "posts/2023-10-28-00 test.html",
+    "title": "Test3",
+    "section": "",
+    "text": "---\ntitle : \"Test\"\nauthor : \"Test\"\ndate : \"10/28/23\"\ncategories : [test]\n---\n\n\nimport plotly.express as ex\nimport plotly.express as px\nimport plotly.io as pio\npio.renderers.default = \"plotly_mimetype+notebook_connected\"\nimport numpy as np\nimport pandas as pd\n\n\ndf = pd.read_csv('https://raw.githubusercontent.com/kalilurrahman/datasets/main/mobilephonemktshare2020.csv')\ndf.head()\n\n\ndf.set_index(\"Date\").diff().\\\n  dropna().boxplot(backend = \"plotly\")"
+  }
+]
